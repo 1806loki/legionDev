@@ -11,14 +11,12 @@ const Home = () => {
     <div className="h-screen w-screen overflow-x-hidden scroll-smooth flex flex-col items-center bg-black root-container text-white relative">
       <Navbar />
       <Hero />
-      {/* <Skills />
+      <Skills />
       <Projects />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };
 
 export default Home;
-
-
